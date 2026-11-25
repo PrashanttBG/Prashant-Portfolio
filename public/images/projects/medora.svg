@@ -1,0 +1,28 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0A0E1A"/>
+  <defs>
+    <linearGradient id="medoraGrad" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#medoraGrad)"/>
+  <g opacity="0.15" stroke="#06B6D4" stroke-width="1">
+    <path d="M0 90H800M0 180H800M0 270H800M0 360H800M160 0V450M320 0V450M480 0V450M640 0V450"/>
+  </g>
+  <rect x="60" y="55" width="680" height="340" rx="18" fill="#111827" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="96" cy="86" r="6" fill="#EF4444"/><circle cx="116" cy="86" r="6" fill="#F59E0B"/><circle cx="136" cy="86" r="6" fill="#10B981"/>
+  <rect x="96" y="122" width="210" height="236" rx="12" fill="#0F172A" stroke="#334155"/>
+  <path d="M135 220H165L180 185L200 255L218 210L232 220H265" stroke="#06B6D4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="125" y="282" width="150" height="14" rx="7" fill="#1E293B"/>
+  <rect x="125" y="308" width="110" height="10" rx="5" fill="#06B6D4" fill-opacity="0.5"/>
+  <rect x="332" y="122" width="372" height="104" rx="12" fill="#0F172A" stroke="#334155"/>
+  <text x="356" y="162" fill="#F8FAFC" font-family="monospace" font-size="22" font-weight="bold">MEDORA // AI HEALTH</text>
+  <text x="356" y="196" fill="#94A3B8" font-family="monospace" font-size="14">OCR + Gemini Lab Report Analyzer</text>
+  <rect x="332" y="246" width="176" height="112" rx="12" fill="#0F172A" stroke="#06B6D4" stroke-opacity="0.4"/>
+  <text x="352" y="286" fill="#06B6D4" font-family="monospace" font-size="26" font-weight="bold">98.4%</text>
+  <text x="352" y="316" fill="#94A3B8" font-family="monospace" font-size="13">OCR Extraction</text>
+  <rect x="528" y="246" width="176" height="112" rx="12" fill="#0F172A" stroke="#6366F1" stroke-opacity="0.4"/>
+  <text x="548" y="286" fill="#818CF8" font-family="monospace" font-size="22" font-weight="bold">Spring 3</text>
+  <text x="548" y="316" fill="#94A3B8" font-family="monospace" font-size="13">JWT + MySQL API</text>
+</svg>

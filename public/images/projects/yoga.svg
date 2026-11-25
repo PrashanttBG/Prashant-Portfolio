@@ -1,0 +1,14 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#071318"/>
+  <rect x="60" y="55" width="680" height="340" rx="18" fill="#0D1F27" stroke="#14B8A6" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="96" y="102" fill="#F8FAFC" font-family="monospace" font-size="22" font-weight="bold">YOGA RECOMMENDER // VECTOR AI</text>
+  <circle cx="220" cy="246" r="78" fill="#134E4A" fill-opacity="0.4" stroke="#2DD4BF" stroke-width="2"/>
+  <circle cx="220" cy="246" r="44" fill="#14B8A6" fill-opacity="0.25" stroke="#5EEAD4" stroke-dasharray="5 4"/>
+  <text x="172" y="252" fill="#5EEAD4" font-family="monospace" font-size="15" font-weight="bold">Firestore</text>
+  <rect x="342" y="142" width="360" height="60" rx="10" fill="#112A34" stroke="#14B8A6" stroke-opacity="0.4"/>
+  <text x="364" y="178" fill="#99F6E4" font-family="monospace" font-size="14">Query: "Lower back pain &amp; stress"</text>
+  <rect x="342" y="218" width="360" height="126" rx="10" fill="#112A34"/>
+  <text x="364" y="256" fill="#F8FAFC" font-family="monospace" font-size="16" font-weight="bold">Top Vector Match: 0.96</text>
+  <text x="364" y="288" fill="#94A3B8" font-family="monospace" font-size="13">LangChain + Vertex AI Gemini</text>
+  <text x="364" y="314" fill="#2DD4BF" font-family="monospace" font-size="13">Flask + Cloud Run</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0A0A14"/>
+  <defs>
+    <linearGradient id="gupGrad" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#gupGrad)"/>
+  <rect x="60" y="55" width="680" height="340" rx="18" fill="#11111E" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="96" y="102" fill="#F8FAFC" font-family="monospace" font-size="22" font-weight="bold">GUPSHUP // KAFKA STREAMING</text>
+  <rect x="96" y="132" width="180" height="226" rx="12" fill="#18182B" stroke="#312E81"/>
+  <text x="116" y="168" fill="#A5B4FC" font-family="monospace" font-size="14">PRODUCERS</text>
+  <rect x="116" y="190" width="140" height="36" rx="8" fill="#312E81"/>
+  <rect x="116" y="238" width="140" height="36" rx="8" fill="#312E81"/>
+  <rect x="116" y="286" width="140" height="36" rx="8" fill="#312E81"/>
+  <path d="M276 208H332M276 256H332M276 304H332" stroke="#06B6D4" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <rect x="332" y="132" width="140" height="226" rx="12" fill="#1E1B4B" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="360" y="235" fill="#22D3EE" font-family="monospace" font-size="16" font-weight="bold">APACHE</text>
+  <text x="368" y="260" fill="#F8FAFC" font-family="monospace" font-size="18" font-weight="bold">KAFKA</text>
+  <path d="M472 208H528M472 256H528M472 304H528" stroke="#8B5CF6" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <rect x="528" y="132" width="176" height="104" rx="12" fill="#18182B" stroke="#4C1D95"/>
+  <text x="548" y="176" fill="#C4B5FD" font-family="monospace" font-size="15" font-weight="bold">Socket.IO</text>
+  <text x="548" y="206" fill="#94A3B8" font-family="monospace" font-size="13">Real-time WS</text>
+  <rect x="528" y="254" width="176" height="104" rx="12" fill="#18182B" stroke="#4C1D95"/>
+  <text x="548" y="298" fill="#34D399" font-family="monospace" font-size="15" font-weight="bold">Redis + PG</text>
+  <text x="548" y="328" fill="#94A3B8" font-family="monospace" font-size="13">DLQ &amp; Metrics</text>
+</svg>

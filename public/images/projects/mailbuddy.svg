@@ -1,0 +1,14 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0E0B1A"/>
+  <rect x="60" y="55" width="680" height="340" rx="18" fill="#161224" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="96" y="102" fill="#F8FAFC" font-family="monospace" font-size="22" font-weight="bold">MAILBUDDY // GEMINI CHROME EXT</text>
+  <rect x="96" y="132" width="608" height="226" rx="12" fill="#1E1930" stroke="#4C1D95"/>
+  <rect x="122" y="156" width="556" height="36" rx="6" fill="#2A2342"/>
+  <text x="140" y="180" fill="#C4B5FD" font-family="monospace" font-size="14">Re: Project Proposal &amp; Timeline</text>
+  <rect x="122" y="208" width="556" height="80" rx="8" fill="#130F21"/>
+  <text x="140" y="240" fill="#E2E8F0" font-family="monospace" font-size="13">"Hi Team, thanks for the update. I've reviewed the milestones..."</text>
+  <rect x="122" y="302" width="200" height="38" rx="8" fill="#7C3AED"/>
+  <text x="148" y="326" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="bold">✨ AI Auto-Reply</text>
+  <rect x="342" y="302" width="160" height="38" rx="8" fill="#2A2342" stroke="#6366F1"/>
+  <text x="370" y="326" fill="#A5B4FC" font-family="monospace" font-size="13">Spring Boot API</text>
+</svg>
