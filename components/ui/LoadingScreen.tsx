@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const BOOT_LINES = [
   "> Initializing Mission Control...",
-  "> Mounting Full-Stack Modules [Java · Spring Boot · React]...",
+  "> Mounting Full-Stack Modules [MERN · Kafka · K8s · Java]...",
   "> Connecting GitHub Telemetry...",
   "> System Online. Welcome, Explorer.",
 ];

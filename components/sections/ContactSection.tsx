@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { CheckCircle2, Github, Linkedin, Mail, Phone, Send } from "lucide-react";
+import { CheckCircle2, Code2, Github, Linkedin, Mail, Phone, Send, Terminal } from "lucide-react";
 import { PROFILE } from "@/lib/data";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { GlassmorphicCard } from "@/components/ui/GlassmorphicCard";
@@ -114,6 +114,34 @@ export function ContactSection() {
                     <div className="text-sm font-medium">@{PROFILE.githubUsername}</div>
                   </div>
                 </a>
+
+                <div className="grid grid-cols-2 gap-3 pt-1">
+                  <a
+                    href={PROFILE.leetcodeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2.5 p-3 rounded-xl bg-[var(--bg-tertiary)]/70 border border-indigo-500/15 hover:border-amber-400/50 transition-colors"
+                  >
+                    <Code2 className="w-4 h-4 text-amber-400 shrink-0" />
+                    <div className="min-w-0">
+                      <div className="text-[11px] font-mono text-[var(--text-secondary)]">LeetCode</div>
+                      <div className="text-xs font-medium truncate">PrashantBG2301</div>
+                    </div>
+                  </a>
+
+                  <a
+                    href={PROFILE.hackerrankUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2.5 p-3 rounded-xl bg-[var(--bg-tertiary)]/70 border border-indigo-500/15 hover:border-emerald-400/50 transition-colors"
+                  >
+                    <Terminal className="w-4 h-4 text-emerald-400 shrink-0" />
+                    <div className="min-w-0">
+                      <div className="text-[11px] font-mono text-[var(--text-secondary)]">HackerRank</div>
+                      <div className="text-xs font-medium truncate">cseltfw2301</div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </GlassmorphicCard>
           </motion.div>

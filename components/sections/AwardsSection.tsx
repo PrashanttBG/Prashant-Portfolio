@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Award, CheckCircle2 } from "lucide-react";
+import { Award, CheckCircle2, ExternalLink } from "lucide-react";
 import { CERTIFICATIONS } from "@/lib/data";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { GlassmorphicCard } from "@/components/ui/GlassmorphicCard";
@@ -45,7 +45,19 @@ export function AwardsSection() {
                     >
                       <span className="flex items-start gap-2 text-[var(--text-secondary)]">
                         <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                        <span>{cert.name}</span>
+                        {cert.credentialUrl ? (
+                          <a
+                            href={cert.credentialUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-cyan-400 transition-colors inline-flex items-center gap-1"
+                          >
+                            <span>{cert.name}</span>
+                            <ExternalLink className="w-3 h-3 shrink-0" />
+                          </a>
+                        ) : (
+                          <span>{cert.name}</span>
+                        )}
                       </span>
                       <span className="font-mono text-xs text-indigo-400 shrink-0">
                         {cert.date}

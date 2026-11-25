@@ -70,13 +70,13 @@ export function AboutSection() {
 
               <div className="mt-6 pt-5 border-t border-indigo-500/15 flex flex-wrap gap-3 font-mono text-xs">
                 <span className="px-3 py-1.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                  B.Tech CSE Graduate
+                  Associate Software Engineer @ Simpplr
                 </span>
                 <span className="px-3 py-1.5 rounded-lg bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-                  Java + Spring Boot + React
+                  MERN + Kafka + Kubernetes
                 </span>
                 <span className="px-3 py-1.5 rounded-lg bg-violet-500/10 text-violet-400 border border-violet-500/20">
-                  AI/ML &amp; Distributed Systems
+                  B.Tech CSE · CGPA 8.31
                 </span>
               </div>
             </GlassmorphicCard>

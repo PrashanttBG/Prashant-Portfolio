@@ -1,0 +1,26 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#091116"/>
+  <defs>
+    <linearGradient id="dairyGrad" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#dairyGrad)"/>
+  <rect x="60" y="55" width="680" height="340" rx="18" fill="#0F1921" stroke="#10B981" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="96" cy="86" r="6" fill="#EF4444"/><circle cx="116" cy="86" r="6" fill="#F59E0B"/><circle cx="136" cy="86" r="6" fill="#10B981"/>
+  <text x="164" y="91" fill="#6EE7B7" font-family="monospace" font-size="14" font-weight="bold">FREELANCE // PAL DAIRY BUSINESS PLATFORM</text>
+  <rect x="96" y="122" width="380" height="236" rx="12" fill="#13222C" stroke="#10B981" stroke-opacity="0.35"/>
+  <text x="122" y="168" fill="#F8FAFC" font-family="sans-serif" font-size="26" font-weight="bold">Pal Dairy</text>
+  <text x="122" y="200" fill="#94A3B8" font-family="monospace" font-size="14">Fresh Dairy Storefront &amp; Ordering</text>
+  <rect x="122" y="228" width="145" height="42" rx="8" fill="#10B981"/>
+  <text x="142" y="254" fill="#052E16" font-family="monospace" font-size="13" font-weight="bold">Explore Catalog</text>
+  <rect x="122" y="292" width="320" height="42" rx="8" fill="#0B151C" stroke="#334155"/>
+  <text x="140" y="318" fill="#34D399" font-family="monospace" font-size="13">Next.js 15 • React 19 • Tailwind CSS</text>
+  <rect x="498" y="122" width="206" height="110" rx="12" fill="#13222C" stroke="#06B6D4" stroke-opacity="0.35"/>
+  <text x="518" y="164" fill="#22D3EE" font-family="monospace" font-size="20" font-weight="bold">100% Fresh</text>
+  <text x="518" y="194" fill="#94A3B8" font-family="monospace" font-size="13">Daily Farm Delivery</text>
+  <rect x="498" y="248" width="206" height="110" rx="12" fill="#13222C" stroke="#10B981" stroke-opacity="0.35"/>
+  <text x="518" y="290" fill="#34D399" font-family="monospace" font-size="18" font-weight="bold">Freelance</text>
+  <text x="518" y="320" fill="#94A3B8" font-family="monospace" font-size="13">Live Link Soon</text>
+</svg>

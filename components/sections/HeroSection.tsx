@@ -66,13 +66,13 @@ export function HeroSection() {
           </div>
 
           <p className="text-base sm:text-lg text-[var(--text-secondary)] max-w-xl leading-relaxed">
-            {PROFILE.tagline} I architect resilient{" "}
-            <span className="text-[var(--text-primary)] font-medium">Java &amp; Spring Boot</span>{" "}
-            backends, craft dynamic{" "}
-            <span className="text-[var(--text-primary)] font-medium">React &amp; Next.js</span>{" "}
-            interfaces, and integrate{" "}
-            <span className="text-[var(--text-primary)] font-medium">AI/ML &amp; Kafka</span>{" "}
-            systems that scale.
+            {PROFILE.tagline} I build multi-tenant SaaS platforms with the{" "}
+            <span className="text-[var(--text-primary)] font-medium">MERN Stack &amp; TypeScript</span>,
+            event-driven{" "}
+            <span className="text-[var(--text-primary)] font-medium">Kafka &amp; Kubernetes</span>{" "}
+            microservices, and{" "}
+            <span className="text-[var(--text-primary)] font-medium">Java, Spring Boot &amp; GenAI</span>{" "}
+            applications.
           </p>
 
           {/* CTAs */}
@@ -162,13 +162,13 @@ export function HeroSection() {
 
             {/* Floating Tech Badges */}
             <span className="absolute -top-2 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full glass-card font-mono text-xs text-cyan-400 border-cyan-400/40 shadow-lg">
-              Spring Boot
+              MERN Stack
             </span>
             <span className="absolute bottom-2 -left-3 px-3 py-1 rounded-full glass-card font-mono text-xs text-indigo-400 border-indigo-400/40 shadow-lg">
-              React / Next.js
+              Kafka &amp; K8s
             </span>
             <span className="absolute bottom-2 -right-3 px-3 py-1 rounded-full glass-card font-mono text-xs text-violet-400 border-violet-400/40 shadow-lg">
-              Kafka &amp; AI
+              Java &amp; GenAI
             </span>
 
             {/* Profile Photo */}

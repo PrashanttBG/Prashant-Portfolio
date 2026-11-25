@@ -11,10 +11,10 @@ import type { GitHubRepoStats } from "@/lib/github";
 
 const CATEGORIES = [
   "All",
-  "Full-Stack",
+  "Freelance",
   "AI / ML",
   "Distributed Systems",
-  "Chrome Extension",
+  "Full-Stack",
 ] as const;
 
 interface ProjectsSectionProps {
@@ -154,10 +154,10 @@ export function ProjectsSection({ repoStats = [] }: ProjectsSectionProps) {
                             </a>
                           ) : (
                             <span className="text-xs font-mono text-[var(--text-secondary)]">
-                              Private / Enterprise Build
+                              Private Client Repo
                             </span>
                           )}
-                          {project.liveUrl && (
+                          {project.liveUrl ? (
                             <a
                               href={project.liveUrl}
                               target="_blank"
@@ -166,7 +166,11 @@ export function ProjectsSection({ repoStats = [] }: ProjectsSectionProps) {
                             >
                               Live Demo <ExternalLink className="w-3.5 h-3.5" />
                             </a>
-                          )}
+                          ) : project.liveLabel ? (
+                            <span className="ml-auto px-2 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/25 font-mono text-[11px] text-emerald-400">
+                              {project.liveLabel}
+                            </span>
+                          ) : null}
                         </div>
                       </div>
                     </div>
