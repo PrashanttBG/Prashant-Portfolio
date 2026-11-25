@@ -78,7 +78,7 @@ export const PROFILE = {
   linkedinUrl: "https://www.linkedin.com/in/iamprashant-baghel/",
   leetcodeUrl: "https://leetcode.com/u/PrashantBG2301/",
   hackerrankUrl: "https://www.hackerrank.com/profile/cseltfw2301",
-  resumeUrl: "https://drive.google.com/", // Update with your Google Drive resume PDF link
+  resumeUrl: "https://drive.google.com/file/d/1FjqbT2ApmRPGu04t4IzDzPdwthkEnjIz/view?usp=sharing",
   photoUrl: "/images/prashant-photo.jpg",
   availability: "Associate Software Engineer @ Simpplr · Open to Connect",
   stats: [
